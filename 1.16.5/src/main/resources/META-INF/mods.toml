@@ -1,0 +1,18 @@
+modLoader="javafml" # The language loader used by the mod(s)
+loaderVersion="[36,)" # The acceptable version range of the language loader
+license="All Rights Reserved" # The license the mod(s) in this JAR are provided under
+
+[[mods]] # A list of mods
+modId="finite_water" # The modid of the mod
+version="1.0.0.0" # The version number of the mod
+displayName="Finite Water" # A display name for the mod
+description=''' # Finite Water
+This mod makes water finite in non-ocean/river/beach biomes. You can set biomes for infinite water in the config file.
+'''
+
+[[dependencies.finite_water]] # the modid of the dependency
+modId="forge" # The modid of the dependency
+mandatory=true # Does this dependency have to exist
+versionRange="[36,)" # The version range of the dependency
+ordering="NONE" # An ordering relationship for the dependency
+side="BOTH" # Side this dependency is applied on - BOTH, CLIENT or SERVER
